@@ -2,9 +2,10 @@ package at.fhj.iit;
 
 public class GreeterImpl implements Greeter {
 	
+	private String name = "";
 	
 	GreeterImpl(String string){
-		
+		this.name = string;
 	}
 	
 	@Override
